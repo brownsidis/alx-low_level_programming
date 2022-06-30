@@ -18,11 +18,11 @@ int main(void)
 
 }
 
-julien@ubuntu:~/c/0x00$ export CFILE=main.c
+root@8b5d7708469a:/alx-low_level_programming/0x00-hello_world# export CFILE=main.c
 
-julien@ubuntu:~/c/0x00$ ./0-preprocessor 
+root@8b5d7708469a:/alx-low_level_programming/0x00-hello_world# ./0-preprocessor 
 
-julien@ubuntu:~/c/0x00$ tail c
+root@8b5d7708469a:/alx-low_level_programming/0x00-hello_world# tail c
 
 # 942 "/usr/include/stdio.h" 3 4
 
