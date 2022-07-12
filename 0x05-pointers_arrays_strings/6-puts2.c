@@ -1,15 +1,21 @@
 #include "main.h"
-
 /**
- * main - check the code for Holberton School students.
- *
+ * puts2 - func that prints 1 char/2 of a string, followed by a new line.
+ * @str: declaration of str and paramters for the function puts2
  * Return: Always 0.
  */
-int main(void)
+void puts2(char *str)
 {
-	char *str;
+	int c;
+	char l;
 
-	str = "0123456789";
-	puts2(str);
-	return (0);
+	for (c = 0; str[c] != 0; c++)
+	{
+		if (c % 2 == 0)
+		{
+			l = str[c];
+			_putchar(l);
+		}
+	}
+	_putchar('\n');
 }
