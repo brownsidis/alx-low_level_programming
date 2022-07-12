@@ -1,20 +1,15 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * puts2 - prints every other character of a  string to stdout
- * @str: string to print
+ * main - check the code for Holberton School students.
  *
- * Return: void
+ * Return: Always 0.
  */
-void puts2(char *str)
+int main(void)
 {
-	int i = 0;
+	char *str;
 
-	while (*(str + i))
-	{
-		_putchar(*(str + i));
-		i = i + 2;
-	}
-	_putchar('\n');
+	str = "0123456789";
+	puts2(str);
+	return (0);
 }
